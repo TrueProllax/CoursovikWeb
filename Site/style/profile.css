@@ -79,6 +79,7 @@
     width: 200px;
     background-color: #275485;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .report-section img {
@@ -94,6 +95,7 @@
     width: 100%;
     background-color: #275485;
     padding:5px 10px;
+    border-radius: 0 10px 10px 0;
 }
 .block-articles-sets {
     padding: 10px 10px;
@@ -119,10 +121,11 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
     margin: 10px 10px;
+    border-radius: 0 10px 0 10px;
 }
 
 .block-set:hover {
-    background-color: coral;
+    background: linear-gradient(90deg, hsl(240, 29%, 33%) 0%, hsl(0, 45%, 32%) 100%);
 }
 
 .block-article {
@@ -133,11 +136,12 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
     margin: 10px 10px;
+    border-radius: 0 10px 0 10px;
 }
 
 
 .block-article:hover {
-    background-color: coral;
+    background: linear-gradient(90deg, hsl(240, 29%, 33%) 0%, hsl(0, 45%, 32%) 100%);
 }
 
 

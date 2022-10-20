@@ -3,7 +3,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: #1b1b2b;
+    /*background-color: #1b1b2b;*/
+    background: linear-gradient(90deg, hsla(240, 23%, 14%, 1) 0%, hsl(0, 42%, 14%) 100%);
 }
 
 .header {
@@ -124,6 +125,7 @@ li .profile:hover {
     background-color: #001d3d;
     border-radius: 10px;
     padding: 50px 0;
+    margin-top: 10px;
 }
 
 .title {
@@ -131,4 +133,7 @@ li .profile:hover {
     justify-content: center;
     color: white;
 }
+
+/* animation of background */
+
 

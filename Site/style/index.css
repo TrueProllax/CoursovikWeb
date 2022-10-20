@@ -5,24 +5,25 @@
 
 
 .sets .set {
-  list-style-type: none;
-  margin: 10px 0px;
-  padding: 10px 0px;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #003566;
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    /*background-color: #003566;*/
+    background: linear-gradient(90deg,#001D3D 0%, #003566 100%);
 }
 
 .sets li {
-  float: left;
+    float: left;
 }
 
 .sets li div {
-  display: block;
-  color: #FFD60A;
-  text-align: left;
-  padding: 32px 32px;
-  text-decoration: none;
+    display: block;
+    color: #FFD60A;
+    text-align: left;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
 .sets li .card {
@@ -33,24 +34,24 @@
 }
 
 .group-buttons {
-    
+
 }
 
 .button-card {
-  float: right;
-  display: block;
-  text-align: center; 
-  margin-top: 12px;
-  margin-right: 12px;
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  cursor: pointer;
-  border: 2px inset #FFC300;
+    float: right;
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 2px inset #FFC300;
 }
 
 .button-card:hover {
-  border: 2px inset #DC562E;
+    border: 2px inset #DC562E;
 }
 
 .button-left {
@@ -77,11 +78,11 @@
 /* hello div */
 
 .hello {
-/*    background-image: url(../image/arts/hello.jpg);*/
+    /*    background-image: url(../image/arts/hello.jpg);*/
 
     background-color: #001d3d;
     border-radius: 10px;
-    
+
     padding: 50px 0;
 }
 
@@ -92,12 +93,12 @@
 }
 
 
-
 /* change line sets  */
 
 
 .change-sets-line {
     padding: 20px 0;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
@@ -122,24 +123,10 @@
     background-color: antiquewhite;
     color: black;
     padding: 2px 8px;
-} 
+}
 
 .change-sets-line li:active {
     background-color: coral;
-} 
-
-.change-sets-line-inside-li:hover > ul {
-    display: inherit;
-}
-.change-sets-line-inside-ul {
-    display: none;
-    margin: -45px -28px;
-    position: absolute;
-}
-
-.change-sets-line-inside-ul li:hover {
-    background-color: black;
-    color: white;
 }
 
 
