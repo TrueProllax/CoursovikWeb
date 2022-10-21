@@ -75,23 +75,6 @@
     border-radius: 10px;
 }
 
-/* hello div */
-
-.hello {
-    /*    background-image: url(../image/arts/hello.jpg);*/
-
-    background-color: #001d3d;
-    border-radius: 10px;
-
-    padding: 50px 0;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
 
 /* change line sets  */
 

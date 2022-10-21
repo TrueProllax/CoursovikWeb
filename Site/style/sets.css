@@ -1,10 +1,3 @@
-.title {
-    text-align: center;
-    color: white;
-    margin: 20px 10px;
-    font-size: 30px;
-}
-
 .blocks img {
     -webkit-transition-property: all;
     -webkit-transition-duration: .4s;
@@ -42,6 +35,17 @@
     flex-direction: column;
     margin-right: 10px;
     cursor: pointer;
+}
+
+/* filter bar */
+
+.bar-filter {
+    padding: 10px 0px;
+
+}
+
+.bar-filter li {
+    margin-right: 20px;
 }
 
 

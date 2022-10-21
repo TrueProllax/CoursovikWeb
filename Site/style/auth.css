@@ -71,7 +71,8 @@
 }
 
 .container form {
-    background-color: #292743;
+    /*background-color: #292743;*/
+    background: linear-gradient(225deg, hsla(240, 23%, 14%, 1) 50%, #29294b 50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +80,6 @@
     padding: 0 50px;
     height: 100%;
     text-align: center;
-    border-radius: 20px;
 }
 
 .container input {
@@ -133,6 +133,10 @@ transform: translateX(100%);
     opacity: 1;
     z-index: 5;
     animation: show 0.6s;
+}
+
+.right-panel-active form {
+    background: linear-gradient(135deg, hsla(240, 23%, 14%, 1) 50%, #29294b 50%);
 }
 
 @keyframes show {
