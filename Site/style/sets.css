@@ -11,30 +11,12 @@
     color: white;
     padding: 10px 0px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     margin-bottom: 100px;
 }
 
 .blocks h5 {
     font-weight: normal;
-}
-
-.block-content {
-    display: flex;
-}
-
-.block-content img {
-    border-radius: 0px;
-    width: 100%;
-}
-
-.block {
-    background-color: #2e3856;
-    padding: 10px 10px;
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
-    cursor: pointer;
 }
 
 /* filter bar */
@@ -59,8 +41,10 @@
 }
 
 
+/* block */
+
 .img_acticle {
-    width: auto;
+    width: 20%;
     height: auto;
     overflow: hidden;
 }
@@ -72,4 +56,37 @@ img {
 .img_acticle:hover img {
     transform: scale(1.1);
 }
+
+.block-content {
+    display: flex;
+    align-items: center;
+}
+
+.block-content img {
+    border-radius: 0px;
+    width: 100%;
+}
+
+.block {
+    background-color: #2e3856;
+    background: linear-gradient(90deg, #2e3856 0%, hsla(0, 0%, 100%, 0.34) 100%);
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.block:hover {
+    box-shadow: inset #354866 0px 12px 18px 0px
+}
+
+.block-about {
+    padding-left: 5px;
+}
+
+
+
+
+
 
